@@ -9,7 +9,7 @@ class Compte
 {
     public:
         Compte();
-        Compte(int,float);
+        Compte(int, float);
         float get_solde(){ return solde; }
         int get_RIB(){ return RIB; }
         void set_solde(float m){ solde = m; }
